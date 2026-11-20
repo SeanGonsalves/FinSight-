@@ -1,0 +1,17 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+
+# Downloaded and generated market data can be large and may have source-specific terms.
+data/raw/**
+!data/raw/**/.gitkeep
+data/processed/**
+!data/processed/**/.gitkeep
+
+# Generated outputs can be reproduced from the notebooks and scripts.
+reports/figures/**/*.png
+reports/tables/*
